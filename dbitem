@@ -53,6 +53,9 @@ $result = $conn->query($sql);
         <th>ngadget</th>
         <th>price</th>
         <th>size</th>
+        <th>size</th>
+        <th>size</th>
+        <th>size</th>
 
       </tr>
     </thead>
