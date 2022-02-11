@@ -29,12 +29,7 @@ $password ="";
 $database ="poojadb";
 
 $conn= mysqli_connect($servername,$username,$password,$database);
-// if(!$conn){
-//     die("sorry we failed to connect:".mysqli_connect_error());
-// }else{
-
-// //echo "connection is succesful!";
-// }
+// remoe comment
 
 $sql = "SELECT * FROM myinfo ";
 $result = $conn->query($sql);
