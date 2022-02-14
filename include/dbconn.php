@@ -9,7 +9,7 @@ $username ="root";
 $password ="";
 
 
-$conn= mysqli_connect($servername,$username,$password,$database);
+$con= mysqli_connect($servername,$username,$password,$database);
 // if(!$conn){
 //     die("sorry we failed to connect:".mysqli_connect_error());
 // }else{
@@ -19,3 +19,4 @@ $conn= mysqli_connect($servername,$username,$password,$database);
 
 
 ?>
+	
