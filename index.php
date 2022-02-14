@@ -220,10 +220,10 @@
 								<h3 class="title">Add New product</h3>
 							</div>
 
-							<form action="addproduct.php" method="POST">
+							<form action="addproduct.php" method="POST" enctype="multipart/form-data">
 
 							<div class="form-group">
-							<select name="gadget" class="input" id="cars">
+							<select name="gadget" class="input">
 									<option >Select Gadget Type</option>
 									<option value="Smartphone">Smartphone</option>
 									<option value="Laptop">Laptop</option>
@@ -242,6 +242,9 @@
 							</div>
 							<div class="form-group">
 								<input class="input" type="text" name="size" placeholder="if laptop or mobile then enter screen size ">
+							</div>
+							<div class="form-group">
+								<input class="input" type="file" name="image" placeholder="Uplode Images ">
 							</div>
 							<div class="form-group">
 								<input class="primary-btn order-submit " type="submit" value="submit">
